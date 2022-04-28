@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 4px solid green;
+    padding: 24px 24px 0 24px;
+    display: flex;
+}
+
+.row {
+width: 100%;
+max-width: 600px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+}
+
+.box-wrapper {
+    border: 4px dotted red;
+}
+
+.box {
+    border: 4px solid blue;
+}
